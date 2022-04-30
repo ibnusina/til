@@ -33,13 +33,13 @@ baseurl: "/til" # the subpath of your site, e.g. /blog
 # Navigation menu
 navigation_links:
   - title: Blog
-    url: /
+    url: /til
 
   - title: About
-    url: /about
+    url: /
 
   - title: Search
-    url: /search
+    url: /til/search
 
 # Footer icons
 footer_links:
