@@ -44,6 +44,14 @@
   }
 }
 
+.darkmode--activated {
+  input {
+    &[type=text] {
+      color: $midGray;
+    }
+  }
+}
+
 .search-title a {
   h3 {
     margin: 0;
