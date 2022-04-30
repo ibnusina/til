@@ -23,7 +23,7 @@ avatar: /assets/image/avatar.png
 url: "https://ibnusina.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ibnusina
 permalink: /:title/
-baseurl: "/til-2" # the subpath of your site, e.g. /blog
+baseurl: "/til" # the subpath of your site, e.g. /blog
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -33,13 +33,13 @@ baseurl: "/til-2" # the subpath of your site, e.g. /blog
 # Navigation menu
 navigation_links:
   - title: Blog
-    url: /til-2/
+    url: /
 
   - title: About
-    url: /til-2/about
+    url: /about
 
   - title: Search
-    url: /til-2/search
+    url: /search
 
 # Footer icons
 footer_links:
