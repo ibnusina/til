@@ -12,7 +12,11 @@ struct State {
 }
 var globalState = State(innerState: 1) 
 
-func updateValue<GlobalState, LocalState>(state: inout GlobalState, localState: WritableKeyPath<GlobalState, LocalState>, newValue: LocalState) -> Void {
+func updateValue<GlobalState, LocalState>(
+    state: inout GlobalState, 
+    localState: WritableKeyPath<GlobalState, LocalState>, 
+    newValue: LocalState) 
+-> Void {
     state[keyPath: localState] = newValue
 }
 updateValue(state: &globalState, localState: \.innerState, newValue: 9)
